@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables — DO NOT COMMIT
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Vite / Next.js
+.vite/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Docker volumes
+postgres_data/
+
+# Downloaded installers & portable binaries (not source code)
+*.msi
+*.exe
+*.msp
+node.zip
+git-portable.zip
+node_portable/
+git_portable/
+docker_installer.exe
+python_installer.exe
